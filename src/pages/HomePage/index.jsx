@@ -1,23 +1,20 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-
+import Container from 'react-bootstrap/Container';
+import Header from '../../components/Header';
 export const HomePage = () => {
   return (
-    <div className="container">
-      <header>
-        <div className="logo" />
-        <h1>React webová aplikace</h1>
-      </header>
+    <>
+      <Header />
+      <Container>
       <main>
-        <p>
-          Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          {" "}
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
-          .
-        </p>
+        <h1>Sluneční Průvodce</h1>
+        <p>O projektu</p>
       </main>
+      </Container>
       <footer>
         <p>Czechitas, Digitální akademie: Web</p>
       </footer>
-    </div>
+    </>
   );
 };
