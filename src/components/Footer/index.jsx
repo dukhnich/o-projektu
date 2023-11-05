@@ -6,9 +6,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Footer() {
   return (
-    <Navbar bg="primary"> 
-        <p className='mx-auto mb-0 text-light'>Czechitas, Digitální akademie: Web</p>
-    </Navbar>
+    <div className='p-3 mb-2 bg-primary text-light text-center'> 
+      Maryna Dukhnich, Anastasiia Chuiko
+      <br />
+      Czechitas, Digitální akademie: Web, 2023
+    </div>
   );
 }
 
