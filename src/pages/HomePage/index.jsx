@@ -4,6 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
+const textMD = `
+Ahoj, jsem Maryna Dukhnich a ráda bych vám představila sebe jako účastnice tohoto projektu.
+
+Mým hlavním očekáváním z závěrečného projektu je získat cenný zážitek při vytváření funkční verze webové aplikace v krátkém časovém horizontu a také získat zkušenosti s procesem vytváření a integrace mapy. A také se těším na týmovou spolupraci a komunikaci s mentory.
+
+Doufám, že vás naše webová stránka osloví a poskytne vám užitečné informace.
+`
+
 export const HomePage = () => {
   return (
     <>
