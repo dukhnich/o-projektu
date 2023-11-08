@@ -2,7 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
@@ -12,8 +12,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/dukhnich">Maryna Dukhnich</Nav.Link>
-            <Nav.Link href="/chijko">Anastasiia Chuiko</Nav.Link>
+            <NavLink to="/dukhnich">Maryna Dukhnich</NavLink>
+            <NavLink to="/chijko">Anastasiia Chuiko</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
