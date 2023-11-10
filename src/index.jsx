@@ -4,6 +4,7 @@ import { App } from './App';
 import { ErrorPage } from './pages/ErrorPage';
 import { Dukhnich } from './pages/Dukhnich';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Chuiko } from './pages/Chuiko'
 
 import './global.css';
 
@@ -22,8 +23,8 @@ const router = createBrowserRouter([
         element: <Dukhnich />,
       },
       {
-        path: 'chijko',
-        element: <HomePage />,
+        path: 'chuiko',
+        element: <Chuiko />,
       },
       {
         path: '*',
