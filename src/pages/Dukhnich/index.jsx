@@ -13,7 +13,7 @@ export const Dukhnich = () => {
         <Col xs={6} md={3}>
           <Image src={photo} alt="Maryna Dukhnich" roundedCircle />
         </Col>
-        <Col xs={6} md={9}>
+        <Col xs={6} md={8}>
           <h2 className='text-secondary mb-4'>Maryna Dukhnich</h2>
           <p>
             Ahoj, jsem Maryna Dukhnich a ráda bych vám představila sebe jako účastnice tohoto projektu.

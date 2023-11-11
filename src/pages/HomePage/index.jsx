@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 import Test from './img/Test.png'
 
 export const HomePage = () => {
@@ -23,6 +24,7 @@ export const HomePage = () => {
           <p>
             Doufáme, že tento projekt bude pro nás skvělou příležitostí vyzkoušet a zdokonalit naše dovednosti v oblasti frontend vývoje.
           </p>
+          <Button variant="primary" className="mt-4" href="https://github.com/Chunastasya/projekt-slunecniPruvodce">Github</Button>
         </Col>
       </Row>
     </Container>
