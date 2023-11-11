@@ -15,6 +15,7 @@ export const HomePage = () => {
         <p>
           Doufáme, že tento projekt bude pro nás skvělou příležitostí vyzkoušet a zdokonalit naše dovednosti v oblasti frontend vývoje.
         </p>
+        <img src="./Test.png"></img>
       </main>
     </Container>
   );

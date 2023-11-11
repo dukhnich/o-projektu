@@ -12,4 +12,21 @@ html {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  flex-grow: 1;
+
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 30px auto;
+  text-align: center;
+ }
+
+ .dukhnich {
+  margin-right: 10px;
+ }
