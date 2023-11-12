@@ -9,7 +9,7 @@ import Test from './img/Test.png'
 export const HomePage = () => {
   return (
     <Container className='mb-4'>
-      <h1 className='text-secondary'>Sluneční Průvodce</h1>
+      <h1 className='text-muted'>Sluneční Průvodce</h1>
       <Row className='align-items-center'>
         <Col xs={12} md={6}>
           <Image src={Test} alt="Test na určení fototypu své kůže" rounded />

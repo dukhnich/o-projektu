@@ -8,12 +8,13 @@ header {
     bottom: 270px;
   }
 
-  img {
+  .photo {
     border-radius: 50%;
     width: 180px;
     height: 220px;
     position: relative;
     top: 50px;
+    object-fit: cover;
   }
 
 

@@ -8,9 +8,9 @@ export const Chuiko = () => {
   return (
     
     <Container className='py-4'>
-        <img src={ChuikoImg} alt="Anastasiia Chuiko"></img>
+        <img className="photo" src={ChuikoImg} alt="Anastasiia Chuiko"></img>
    <header>
-        <h2 className='text-secondary mb-4'>Anastasiia Chuiko</h2>
+        <h1 className='text-muted mb-4'>Anastasiia Chuiko</h1>
       <p>
       Ještě před přestěhováním do České republiky jsem chtěla změnit své povolání, najít si pro sebe stabilní zaměstnání, které by mi přinášelo potěšení a stabilitu bez ohledu na to, kde jsem a co se děje ve světě. A tak jsem po přestěhování objevila svět IT a rozhodla se v něm rozvíjet po malých krůčcích.
       </p>
