@@ -10,7 +10,7 @@ import './global.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/o-projektu',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
