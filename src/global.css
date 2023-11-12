@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 html {
@@ -13,13 +14,14 @@ html {
   margin-right: auto;
   margin-left: auto;
   flex-grow: 1;
-
+ 
 }
 
 .main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: linear-gradient(rgb(158, 140, 224), white);
 }
 
 h1 {
@@ -28,5 +30,6 @@ h1 {
  }
 
  img {
-  max-width: 100%;
+  /* max-width: 100%; */
+
  }
