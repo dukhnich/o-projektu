@@ -3,14 +3,14 @@ import { HomePage } from './pages/HomePage';
 import { App } from './App';
 import { ErrorPage } from './pages/ErrorPage';
 import { Dukhnich } from './pages/Dukhnich';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Chuiko } from './pages/Chuiko'
 
 import './global.css';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: '/o-projektu',
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -19,11 +19,11 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'dukhnich',
+        path: '/dukhnich',
         element: <Dukhnich />,
       },
       {
-        path: 'chuiko',
+        path: '/chuiko',
         element: <Chuiko />,
       },
       {
