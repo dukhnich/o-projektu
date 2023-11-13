@@ -30,10 +30,6 @@ const router = createBrowserRouter([
         path: '*',
         element: <ErrorPage />
       },
-      // {
-      //   path: 'centers/:id',
-      //   element: <CenterDetails />,
-      // },
     ],
   },
 ]);
