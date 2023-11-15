@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import ChuikoImg from './photobakery-95.jpg'
 import { Container } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 
 export const Chuiko = () => {
@@ -17,9 +18,10 @@ export const Chuiko = () => {
       <p>
       Z projektu chci získat nové znalosti, zkušenosti s prací na reálném projektu, který bude moderní a užitečný pro uživatele.
       </p>
+      <div className='button'>
       <Button variant="primary" className="mt-4" href="https://github.com/Chunastasya">Github</Button>
-          <Button variant="primary" className="mt-4 mx-2" href="https://www.linkedin.com/in/anastasiia-chuiko/">LinkedIn</Button>
-      
+          <Button variant="primary" className="mt-4 mx-2" href="https://www.linkedin.com/in/anastasiia-chuiko-894008227/?originalSubdomain=ua">LinkedIn</Button>
+          </div>
       </header>
       
     </Container>
