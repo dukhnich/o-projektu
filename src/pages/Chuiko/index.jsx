@@ -17,6 +17,8 @@ export const Chuiko = () => {
       <p>
       Z projektu chci získat nové znalosti, zkušenosti s prací na reálném projektu, který bude moderní a užitečný pro uživatele.
       </p>
+      <Button variant="primary" className="mt-4" href="https://github.com/Chunastasya">Github</Button>
+          <Button variant="primary" className="mt-4 mx-2" href="https://www.linkedin.com/in/anastasiia-chuiko/">LinkedIn</Button>
       
       </header>
       
