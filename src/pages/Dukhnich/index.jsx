@@ -1,4 +1,4 @@
-import photo from './dm1.png'
+import photo from './dm1.jpg'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
