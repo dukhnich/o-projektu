@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'; 
-import './style.css';
 import photo from './dm1.png'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
