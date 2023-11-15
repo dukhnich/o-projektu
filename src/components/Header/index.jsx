@@ -12,7 +12,7 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink className="mx-4" to="/dukhnich">Maryna Dukhnich</NavLink>
+            <NavLink className="mx-lg-4" to="/dukhnich">Maryna Dukhnich</NavLink>
             <NavLink to="/chuiko">Anastasiia Chuiko</NavLink>
           </Nav>
         </Navbar.Collapse>
